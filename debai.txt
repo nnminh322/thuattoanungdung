@@ -2,3 +2,15 @@ hello, soạn đề vào đây
 hello
 
 có vẻ khá ổn, tí anh nhập đề vào đây nhé.
+
+p1. steiner
+
+một mạng truyền thông g bao gồm n máy chủ 1, 2... N được kết nối với nhau bởi m đường truyền 2 chiều. giữa hai máy chủ i và j có thể có đường truyền
+hoặc không. trong th 2 máy chủ i và j có đường truyền thì c(i, j) là chi phí giữa 2 đường này
+
+            một công ty cần tính toán thuê 1 số đường truyền sao cho chi phí là ít nhất
+            input
+                dòng 1: ghi 2 số nguyên dương n và m (1<= n, m <= 30)
+                dòng 2 đến m: mỗi dòng ghi 3 số i, j, w: có đường truyền giữa i và j với chi phí thuê c(i, j) = w
+                dòng m+2: ghi số nguyên dương K
+                dòng m+3: ghi K số nguyên dương đôi một khác nhau là chỉ số của các máy chủ
